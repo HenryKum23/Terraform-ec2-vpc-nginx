@@ -1,6 +1,5 @@
 provider "aws" {
   region = "us-east-2"
-  # profile = "terraform-user"
 }
 
 data "aws_ami" "ubuntu" {
